@@ -85,6 +85,7 @@ input.button{
     background-color: hsl(234, 29%, 20%);
     color: hsl(0, 0%, 100%);
     font-weight: 700;
+    cursor: pointer;
 }
 .extension{
     margin-bottom: 30px;
@@ -97,6 +98,9 @@ label{
     font-size: 10px;
     font-family: 'Roboto', sans-serif;
     
+}
+.button:hover{
+    background-color: blue ;
 }
 
 
